@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibility", "SOLID Design Principles\SingleResponsibility\SingleResponsibility.csproj", "{74948552-0CCA-4CA2-874F-66529A89F77E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClose", "SOLID Design Principles\OpenClose\OpenClose.csproj", "{3BCE9ADB-A53F-4CFC-B883-E1E8C1C6B050}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74948552-0CCA-4CA2-874F-66529A89F77E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74948552-0CCA-4CA2-874F-66529A89F77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74948552-0CCA-4CA2-874F-66529A89F77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74948552-0CCA-4CA2-874F-66529A89F77E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BCE9ADB-A53F-4CFC-B883-E1E8C1C6B050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BCE9ADB-A53F-4CFC-B883-E1E8C1C6B050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BCE9ADB-A53F-4CFC-B883-E1E8C1C6B050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BCE9ADB-A53F-4CFC-B883-E1E8C1C6B050}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCC25CEC-6DEF-4F4E-AA3A-7332A9885652}
+	EndGlobalSection
+EndGlobal
