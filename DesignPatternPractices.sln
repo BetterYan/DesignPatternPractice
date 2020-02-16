@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibility", "SOL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClose", "SOLID Design Principles\OpenClose\OpenClose.csproj", "{3BCE9ADB-A53F-4CFC-B883-E1E8C1C6B050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitution", "LiskovSubstitution\LiskovSubstitution.csproj", "{4955DF9E-1480-4958-9076-1B80FD297700}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitution", "SOLID Design Principles\LiskovSubstitution\LiskovSubstitution.csproj", "{4955DF9E-1480-4958-9076-1B80FD297700}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregation", "InterfaceSegregation\InterfaceSegregation.csproj", "{DF6B2DD3-EC0B-479B-869D-F1BA570C7C46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregation", "SOLID Design Principles\InterfaceSegregation\InterfaceSegregation.csproj", "{DF6B2DD3-EC0B-479B-869D-F1BA570C7C46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversion", "SOLID Design Principles\DependencyInversion\DependencyInversion.csproj", "{411E0B7A-2B27-43EA-A821-6109284F2AB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{ACD0EDC8-6E5F-4F9A-8EBC-AFC09FD45292}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +37,20 @@ Global
 		{DF6B2DD3-EC0B-479B-869D-F1BA570C7C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF6B2DD3-EC0B-479B-869D-F1BA570C7C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF6B2DD3-EC0B-479B-869D-F1BA570C7C46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411E0B7A-2B27-43EA-A821-6109284F2AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411E0B7A-2B27-43EA-A821-6109284F2AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411E0B7A-2B27-43EA-A821-6109284F2AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411E0B7A-2B27-43EA-A821-6109284F2AB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74948552-0CCA-4CA2-874F-66529A89F77E} = {ACD0EDC8-6E5F-4F9A-8EBC-AFC09FD45292}
+		{3BCE9ADB-A53F-4CFC-B883-E1E8C1C6B050} = {ACD0EDC8-6E5F-4F9A-8EBC-AFC09FD45292}
+		{4955DF9E-1480-4958-9076-1B80FD297700} = {ACD0EDC8-6E5F-4F9A-8EBC-AFC09FD45292}
+		{DF6B2DD3-EC0B-479B-869D-F1BA570C7C46} = {ACD0EDC8-6E5F-4F9A-8EBC-AFC09FD45292}
+		{411E0B7A-2B27-43EA-A821-6109284F2AB7} = {ACD0EDC8-6E5F-4F9A-8EBC-AFC09FD45292}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FCC25CEC-6DEF-4F4E-AA3A-7332A9885652}
