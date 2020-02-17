@@ -50,6 +50,8 @@ namespace InterfaceSegregation
             throw new NotImplementedException();
         }
 
+        //Such kind of obsolete doesn't help the user at all
+        [Obsolete("Not support", true)]
         public void Scan()
         {
             //The old printer havn't such feature
