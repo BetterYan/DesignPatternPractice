@@ -59,7 +59,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObject", "Behavioral Pa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Behavioral Patterns\Observer\Observer.csproj", "{AE86D2D3-71B1-44CE-B3CC-2F74BD768545}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "Behavioral Patterns\State\State.csproj", "{DCDD2478-D17D-42C4-B44F-A8B04897180A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "Behavioral Patterns\State\State.csproj", "{DCDD2478-D17D-42C4-B44F-A8B04897180A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Behavioral Patterns\Strategy\Strategy.csproj", "{E1FE1D0B-2F39-4A12-AF57-2394D80D19C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -167,6 +169,10 @@ Global
 		{DCDD2478-D17D-42C4-B44F-A8B04897180A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCDD2478-D17D-42C4-B44F-A8B04897180A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCDD2478-D17D-42C4-B44F-A8B04897180A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1FE1D0B-2F39-4A12-AF57-2394D80D19C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1FE1D0B-2F39-4A12-AF57-2394D80D19C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1FE1D0B-2F39-4A12-AF57-2394D80D19C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1FE1D0B-2F39-4A12-AF57-2394D80D19C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -197,6 +203,7 @@ Global
 		{2D6F4053-F460-45C0-96DD-6F5B480980F1} = {2C48DCCD-81F1-4072-AC8C-5F82DC4EFEFD}
 		{AE86D2D3-71B1-44CE-B3CC-2F74BD768545} = {2C48DCCD-81F1-4072-AC8C-5F82DC4EFEFD}
 		{DCDD2478-D17D-42C4-B44F-A8B04897180A} = {2C48DCCD-81F1-4072-AC8C-5F82DC4EFEFD}
+		{E1FE1D0B-2F39-4A12-AF57-2394D80D19C8} = {2C48DCCD-81F1-4072-AC8C-5F82DC4EFEFD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FCC25CEC-6DEF-4F4E-AA3A-7332A9885652}
